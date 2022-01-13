@@ -2,3 +2,61 @@
     font-family: "Roboto";
 }
 
+:root {
+    --id-color: #212121;
+    --subid-color: #757575;
+    --title-color: #FFFFFF;
+}
+
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.header-link-black {
+    color: var(--id-color);
+}
+
+.header-link-mail {
+    color: #2196F3;
+}
+
+.header-link-tel {
+    color: var(--subid-color);
+}
+
+.slogan {
+    background-color: #2F303A;
+}
+
+.slogan-title {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A
+}
+
+
+
+
+
+
