@@ -27,15 +27,15 @@ body {
     color: var(--id-color);
 }
 
-.header-link-studio:hover {
+.header-link-studio:hover, header-link-studio:focus {
     color: #2196F3;
 }
 
-.headerlink-portfolio:hover {
+.headerlink-portfolio:hover, headerlink-portfolio:focus {
     color: #2196F3;
 }
 
-.headerlink-contacts:hover {
+.headerlink-contacts:hover, headerlink-contacts:focus {
     color: #2196F3;
 }
 
@@ -47,11 +47,11 @@ body {
     color: var(--subid-color);
 }
 
-.header-link-mail:hover {
+.header-link-mail:hover, header-link:focus {
     color: ##2196F3;
 }
 
-.header-link-tel:hover {
+.header-link-tel:hover, header-link:focus {
     color: ##2196F3;
 }
 
@@ -143,6 +143,65 @@ body {
     color: var(--title-color);
 }
 
-.footer-link-mail, footer-link-tel {
+.footer-link-adderess:focus,  {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-mail:focus, footer-link-mail:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-tel:focus, footer-link:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menu-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16)
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.menu-button-all:focus {
+    color: #2196F3;
+}
+
+.menu-button-app {
+    color: #2196F3;
+}
+
+.menu-button-app:focus {
+    color: #2196F3;
+}
+
+.menu-button-design:focus {
+    color: #2196F3;
+}
+
+.menu-button-marketing:focus {
+    color: #2196F3;
+}
+
+.projects-achievements {
+
+}
+
+.projects-description {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--id-color)
+}
+
+.projects-title {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: var(--subid-color);
 }
